@@ -1,3 +1,6 @@
+body {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
 .main-title{
     background-color: yellow;
     color:red;
@@ -16,11 +19,21 @@
 .prompt{
     font-size: 50px;
 }
-.choice{
+ul.index-only{
+    display: table;
+    margin: auto;
     font-size: 35px;
     text-align: center;
 }
 img {
     height: auto;
-    width: 150px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.finish{
+    font-size: 50px;
+    color: green;
+    text-align: center;
 }
