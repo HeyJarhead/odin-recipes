@@ -1,6 +1,8 @@
+/*Give the body a fall back for the fonts*/
 body {
     font-family: "Times New Roman", Helvetica, sans-serif;
 }
+/*Creates a consistant header for each of the html*/
 .main-title{
     background-color: yellow;
     color:red;
@@ -8,6 +10,7 @@ body {
     text-align: center;
 }
 
+/* Makes typing the center text align less redundant*/
 .prompt,
 .greet{
     text-align: center;
@@ -19,12 +22,14 @@ body {
 .prompt{
     font-size: 50px;
 }
+/*Using chaining selectors to only let the index page have this effect*/
 ul.index-only{
     display: table;
     margin: auto;
     font-size: 35px;
     text-align: center;
 }
+/*Makes the image on all the recipes adjust the same*/
 img {
     height: auto;
     width: 200px;
@@ -32,6 +37,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+/*THe final sentence on all of the recipes*/
 .finish{
     font-size: 50px;
     color: green;
