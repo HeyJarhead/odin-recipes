@@ -7,7 +7,6 @@
 
 .prompt,
 .greet{
-    
     text-align: center;
 }
 .greet{
@@ -23,5 +22,5 @@
 }
 img {
     height: auto;
-    width: 300px;
+    width: 150px;
 }
